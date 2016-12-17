@@ -1,4 +1,5 @@
 # Wikipedia Viewer
 
-
-A Pen created at CodePen.io. You can find this one at http://codepen.io/sajman/pen/rexPZg.
+### Demo:
+CodePen: http://codepen.io/sajman/pen/rexPZg.
+Github: https://sajibhaskaran.github.io/Wikipedia-viewer/
