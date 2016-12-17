@@ -1,0 +1,86 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #363C5E;
+  display: flex;
+}
+
+.main-window {
+  margin: 250px auto;
+  //border-bottom: 2px solid white;
+}
+
+#search {
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+.ui-autocomplete {
+  color: black;
+  border-radius: 0px;
+  width: 50px;
+  height: 175px;
+  list-style: none;
+  padding-left: 1px;
+}
+
+.ui-autocomplete.source:hover {
+  background: ;
+}
+
+.ui-menu .ui-menu-item a {
+  background: red;
+  height: 10px;
+  font-size: 8px;
+}
+
+.ui-state-hover,
+.ui-state-focus {
+  background: #363C5E;
+  border: none;
+  color: green;
+  border-radius: 0;
+  font-weight: normal;
+  padding: 0;
+}
+
+.ui-helper-hidden-accessible {
+  position: absolute;
+  left: -999em;
+}
+
+.ui-widget-content {
+  border: 0;
+  background: none;
+  color: white;
+  padding-left: 2px;
+}
+
+#article {
+  width: 80%;
+  min-height: 700px;
+  margin: 25px auto;
+  background-color: silver;
+  text-align: left;
+  padding: 15px 20px;
+}
+
+button {
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: 0;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.glyphicon {
+  color: #363C5E;
+}
