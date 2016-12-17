@@ -11,7 +11,7 @@ $(document).ready(function() {
       var articles = data[2];
       var links = data[3];
 
-      $("#article").empty();
+      //$("#article").empty();
       for (var i in data[1]) {
         titles += ("<a href= '" + links[i] + "' target='_blank'>");
         titles += ("<b>" + data[1][i] + "</b></a>" +
@@ -19,7 +19,7 @@ $(document).ready(function() {
         titles += (articles[i] + "</br><hr></br>");
       }
       $("#article").html(titles);
-      console.log(titles);
+      //console.log(titles);
 
     });
   }
