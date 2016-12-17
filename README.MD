@@ -11,4 +11,4 @@ Github: https://sajibhaskaran.github.io/Wikipedia-viewer/
 ### User Stories:
 1. I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
 
-2. User Story: I can click a button to see a random Wikipedia entry.
+2. I can click a button to see a random Wikipedia entry.
