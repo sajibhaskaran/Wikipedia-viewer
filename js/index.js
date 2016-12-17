@@ -23,16 +23,16 @@ $(document).ready(function() {
 
     });
   }
-  
+
   // calling the wikipedia API for random articles.
   var randomResult = function() {
 
-    var randomurl = "https://en.wikipedia.org/w/api.php?action=query&generator=random&grnnamespace=0&prop=extracts&exlimit=max&exchars=5000&format=json&callback=?";
-    $.getJSON(randomurl, function(data) {
+    var randomURL = "https://en.wikipedia.org/w/api.php?action=query&generator=random&grnnamespace=0&prop=extracts&exlimit=max&exchars=5000&format=json&callback=?";
+    $.getJSON(randomURL, function(data) {
       var pages = data.query.pages;
       var article = pages[Object.keys(pages)[0]].extract;
       var title = pages[Object.keys(pages)[0]].title
-      console.log(data.query.pages);
+      //console.log(data.query.pages);
       $("#article").html("<b>" + title + "</b>" + "<br>" + article);
 
     });
